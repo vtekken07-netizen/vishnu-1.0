@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="windth=device
+  -width, initial-scale=1.0">
+<title>Vishnu Neon game</title>
+
+<style>
+body{
+margin:0;
+font-family:arial;
+background:#0f0f0f;
+color:withe;
+text-align:center:
+}
+
+/* Neon Heading */
+h1{
+text-shadow:0 0 15px #00f7ff,0 0 30px #00f7ff
+  ;
+}
+
+/*BIG YES NO BUTTON */
+.bigBtn{
+padding:18px 40px;
+font-size:22px:
+border:none;
+border-radius:12px;
+cuesor:pointer;
+margin:15px;
+font-weight:bold;
+transition:0.3s;
+}
+
+#yrs{
+background:#00f7ff;
+color:black;
+box-shadow:0 0 15px #ff0055,0 0 30px #ff0055;
+}
+
+#no{
+background:#ff0055;
+color:white;
+box-shadow:0 0 15px #ff0055,0 0 30px #ff0055;
+}
+
+.bigBtn:hover{
+transform:scale(1.1);
+}
+
+#gamesection{
+display:none;
+padding:20px;
+}
+
+.app{
+max-width:420px;
+margin:auto;
+background:#1a1a1a;
+padding:20px;
+border-radius:20px;
+box-shadow:0 0 25px #00f7ff33;
+}
+
+.modeselect button{
+margin:5px;
+padding:8px 15px;
+}
+
+/* Board */
+.board{
+display:grid;
+grid-template-columns:repeat(3,100px);
+grid-gap:10px;
+justify-cotent:center;
+margin-top:20px;
+}
+
